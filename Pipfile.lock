@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7d0e1e0917e8eddbd6f9a57d0868a47a5450fd7a6731e408f04ffdf30270923f"
+            "sha256": "183d12aa4dd392c6f7247cd1018fd04235f3186ae1cadd001799b6f1c91de019"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,13 @@
         ]
     },
     "default": {
+        "a2wsgi": {
+            "hashes": [
+                "sha256:6d7c602fb1f9cc6afc6c6d0558d3354f3c7aa281e73e6dc9e001dbfc1d9e80cf",
+                "sha256:ce462ff7e1daac0bc57183c6f800f09a71c2a7a98ddd5cdeca149e3eabf3338e"
+            ],
+            "version": "==1.10.7"
+        },
         "anyio": {
             "hashes": [
                 "sha256:4c8bc31ccdb51c7f7bd251f51c609e038d63e34219b44aa86e47576389880b4c",
@@ -184,6 +191,7 @@
         },
         "connexion": {
             "extras": [
+                "flask",
                 "uvicorn"
             ],
             "hashes": [
